@@ -14,7 +14,7 @@ window.addEventListener("keydown", function (event) {
     redSide1.style.width = `${redIndex1}%`
     blueSide1.style.width = `${blueIndex1}%`
     if(redIndex1 == 100) {
-        text11.innerText = "'BLUE' team WINS!"
+      this.alert('BLUE wins')
     }
   } 
   else if (event.key == "l") {
@@ -24,7 +24,7 @@ window.addEventListener("keydown", function (event) {
     redSide1.style.width = `${redIndex1}%`
     blueSide1.style.width = `${blueIndex1}%`
     if(blueIndex1 == 100) {
-        text11.innerText = "'RED' team WINS!"
+        this.alert('RED wins')
     }
   }
 });
